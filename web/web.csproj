@@ -20,6 +20,9 @@
     <Compile Update="ICatalogo.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
+    <Compile Update="IRelatorio.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Update="Livro.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
