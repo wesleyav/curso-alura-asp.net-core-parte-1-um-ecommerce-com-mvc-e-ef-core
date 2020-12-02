@@ -15,7 +15,7 @@ namespace CasaDoCodigo.Repositories
         public BaseRepository(ApplicationContext contexto)
         {
             this.contexto = contexto;
-            dbSet = contexto.Set<T>()
+            dbSet = contexto.Set<T>();
         }
     }
 }
